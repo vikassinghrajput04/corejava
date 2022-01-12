@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+                         "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+ <display-name>Archetype Created Web Application</display-name>
+ <servlet>
+  <servlet-name>RgistrationCtl</servlet-name>
+  <display-name>RgistrationCtl</display-name>
+  <servlet-class>com.project.trial.RgistrationCtl</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>LoginCtl</servlet-name>
+  <display-name>LoginCtl</display-name>
+  <servlet-class>com.project.trial.LoginCtl</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ForgotPassword</servlet-name>
+  <display-name>ForgotPassword</display-name>
+  <servlet-class>com.project.trial.ForgotPassword</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>RgistrationCtl</servlet-name>
+  <url-pattern>/RgistrationCtl</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>LoginCtl</servlet-name>
+  <url-pattern>/LoginCtl</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ForgotPassword</servlet-name>
+  <url-pattern>/ForgotPassword</url-pattern>
+ </servlet-mapping>
+ 
+</web-app>
