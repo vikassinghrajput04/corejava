@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+                         "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<filter>
+		<filter-name>TrialFilter</filter-name>
+		<display-name>TrialFilter</display-name>
+		<description></description>
+		<filter-class>com.project.trial.TrialFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>TrialFilter</filter-name>
+		<url-pattern>/TrialFilter</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<servlet-name>GetCookiesCtl</servlet-name>
+		<display-name>GetCookiesCtl</display-name>
+		<description></description>
+		<servlet-class>com.project.trial.GetCookiesCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MyProfileUpdate</servlet-name>
+		<display-name>MyProfileUpdate</display-name>
+		<description></description>
+		<servlet-class>com.project.trial.MyProfileUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetCookiesCtl</servlet-name>
+		<url-pattern>/GetCookiesCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MyProfileUpdate</servlet-name>
+		<url-pattern>/MyProfileUpdate</url-pattern>
+	</servlet-mapping>
+		<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
